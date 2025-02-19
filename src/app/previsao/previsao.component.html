@@ -1,0 +1,11 @@
+<div>
+  <h2>Previsão do Tempo para qualquer cidade do Brasil!</h2>
+  <input type="text" [(ngModel)]="cidade" placeholder="Digite uma cidade" />
+  <button (click)="buscarPrevisao()">Buscar</button>
+</div>
+
+<div *ngIf="previsao">
+  <h3>🌍 Clima Atual</h3>
+  <p>🌡️ Temperatura: {{ previsao.temperature }}°C</p>
+  <p>💨 Vento: {{ previsao.windspeed }} km/h</p>
+</div>

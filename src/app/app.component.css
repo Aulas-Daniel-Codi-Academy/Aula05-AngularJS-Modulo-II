@@ -1,0 +1,11 @@
+.container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(189, 181, 181);
+  padding: 30px;
+  width: 50%;
+  margin-left: 22%;
+}
